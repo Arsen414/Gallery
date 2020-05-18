@@ -1,0 +1,36 @@
+.photos__item {
+  width: 30%;
+  margin: 10px;
+}
+.photos__item-photo {
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 1px 32px 8px #293a29;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.photos__list {
+  background-color: #d7dfdb;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Inconsolata", monospace;
+
+  color: #132413;
+}
+.photo__user__name {
+  font-size: 50px;
+}
+.photo__information {
+  font-size: 20px;
+}
+.photo__footer {
+  font-size: 18px;
+}
+.photo_likes_number {
+  
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #253525,
+    0 0 30px #253525, 0 0 40px #253525, 0 0 55px #253525, 0 0 75px #253525;
+}
